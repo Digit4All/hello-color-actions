@@ -10,7 +10,7 @@ deploy:
         pwd
         ls -la
 
-    # 2) Verify we can talk to AWS with your secrets
+    # 2) Verify we can talk to AWS with your secrets..
     - name: Verify AWS identity and bucket
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
